@@ -1,0 +1,23 @@
+body, html {
+  font-family: Arial, sans-serif !important;
+  height: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+ }
+
+#skibidi {
+
+  width: 200px; /* Set the image width to 500 pixels */
+  max-width: 1000px;/* Ensures the image doesn't stretch beyond the container */
+  transition: transform 0.3s ease;
+}
+
+#skibidi:hover {
+ transform: scale(1.1);
+
+}
